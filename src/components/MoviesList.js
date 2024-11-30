@@ -6,8 +6,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {getAllMovie} from "../redux/actions/movieAction";
 import NavBar from "./NavBar";
 
-
-
+const moza= 10
 
 const MoviesList = () => {
   const [movie, setMovie] = useState([]);
